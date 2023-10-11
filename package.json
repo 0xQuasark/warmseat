@@ -1,0 +1,17 @@
+{
+  "name": "warmseat",
+  "version": "1.0.0",
+  "description": "This application loads a transcript from Youtube, feeds it into OpenAI via Langchain, and then allows the user to have a question and answer session with the participants in the video.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^6.4.1"
+  }
+}
